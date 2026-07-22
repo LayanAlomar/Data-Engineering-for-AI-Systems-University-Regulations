@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.env
+.venv/
+.idea/
+.vscode/
+airflow.db
+airflow.cfg
+standalone_admin_password.txt
+data/landing/*
+!data/landing/.gitkeep
+data/delta/*
+!data/delta/.gitkeep
+data/chroma/*
+!data/chroma/.gitkeep
+logs/*
+!logs/.gitkeep

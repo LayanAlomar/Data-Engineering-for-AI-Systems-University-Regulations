@@ -1,0 +1,59 @@
+{
+  "project": "University Regulations AI Data Pipeline",
+  "environment": "VS Code + Docker Desktop",
+  "rubric_components": {
+    "ingestion": [
+      "Apache Kafka",
+      "kafka-python",
+      "Pydantic",
+      "DLQ"
+    ],
+    "lakehouse": [
+      "PySpark",
+      "Delta Lake",
+      "Bronze",
+      "Silver",
+      "Gold",
+      "MERGE",
+      "schema enforcement"
+    ],
+    "rag": [
+      "chunking",
+      "sentence-transformer embeddings",
+      "ChromaDB",
+      "BM25",
+      "RRF",
+      "cross-encoder",
+      "citations"
+    ],
+    "orchestration": [
+      "Apache Airflow",
+      "quality gate dependencies"
+    ],
+    "quality_lineage": [
+      "Great Expectations",
+      "OpenLineage START/COMPLETE/FAIL"
+    ]
+  },
+  "repository_name": "Data-Engineering-for-AI-Systems-University-Regulations",
+  "project_title": "Data Engineering for AI Systems — University Regulations",
+  "supervisor": "Mohammed Albeladi",
+  "team_members": [
+    {
+      "name": "Layan Alomar",
+      "email": "layanomaralomar@gmail.com"
+    },
+    {
+      "name": "Wajd Alotaibi",
+      "email": "wajd.ashag@hotmail.com"
+    },
+    {
+      "name": "Alathoob Alosaimi",
+      "email": "AlathoobS@outlook.com"
+    },
+    {
+      "name": "Reema Qublan",
+      "email": "reem.qu@icloud.com"
+    }
+  ]
+}

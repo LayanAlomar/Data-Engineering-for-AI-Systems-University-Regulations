@@ -1,0 +1,58 @@
+[
+  {
+    "regulation_id": "REG001",
+    "title": "Course Withdrawal",
+    "category": "Registration",
+    "text": "A student may withdraw from a course before the published deadline. The withdrawal is recorded according to university policy.",
+    "effective_year": 2026,
+    "status": "active"
+  },
+  {
+    "regulation_id": "REG002",
+    "title": "Academic Warning",
+    "category": "Academic Standing",
+    "text": "An academic warning may be issued when a student's cumulative GPA falls below the required threshold.",
+    "effective_year": 2026,
+    "status": "active"
+  },
+  {
+    "regulation_id": "REG003",
+    "title": "Exam Absence",
+    "category": "Examinations",
+    "text": "A student who misses a final examination must submit an accepted excuse through the official university procedure.",
+    "effective_year": 2026,
+    "status": "active"
+  },
+  {
+    "regulation_id": "REG004",
+    "title": "Course Prerequisites",
+    "category": "Registration",
+    "text": "A student must satisfy all stated prerequisites before registering for a course unless an authorized exception is granted.",
+    "effective_year": 2026,
+    "status": "active"
+  },
+  {
+    "regulation_id": "REG005",
+    "title": "Graduation Requirements",
+    "category": "Graduation",
+    "text": "Graduation requires successful completion of the approved study plan and all university and college requirements.",
+    "effective_year": 2026,
+    "status": "active"
+  },
+  {
+    "regulation_id": "",
+    "title": "Invalid Missing ID",
+    "category": "Registration",
+    "text": "This record is intentionally invalid for the dead-letter topic demonstration.",
+    "effective_year": 2026,
+    "status": "active"
+  },
+  {
+    "regulation_id": "REG_BAD",
+    "title": "Invalid Year",
+    "category": "Other",
+    "text": "This record is intentionally invalid because the effective year is outside the accepted range.",
+    "effective_year": 1990,
+    "status": "active"
+  }
+]
