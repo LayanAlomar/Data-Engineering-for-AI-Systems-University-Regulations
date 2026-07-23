@@ -1,17 +1,54 @@
+# Python
 __pycache__/
 *.py[cod]
-.env
+*.egg-info/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Virtual environments
 .venv/
-.idea/
+venv/
+env/
+
+# Secrets
+.env
+*.env
+*.pem
+*.key
+kaggle.json
+.kaggle/
+
+# IDEs
 .vscode/
+.idea/
+
+# Airflow
 airflow.db
 airflow.cfg
-standalone_admin_password.txt
-data/landing/*
-!data/landing/.gitkeep
-data/delta/*
-!data/delta/.gitkeep
-data/chroma/*
-!data/chroma/.gitkeep
-logs/*
-!logs/.gitkeep
+webserver_config.py
+.airflow/
+
+# Generated data
+data/
+quarantine_zone/
+lineage_events/
+spark-warehouse/
+production_warehouse/
+
+# Vector store / caches
+.chroma/
+chroma/
+.cache/
+sentence_transformers/
+
+# Logs
+logs/
+*.log
+!docs/sample_run.log
+
+# Kafka downloads
+kafka_2.13-*/
+kafka_2.13-*.tgz
+
+# macOS
+.DS_Store
