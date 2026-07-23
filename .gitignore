@@ -1,4 +1,4 @@
-# Python
+# # Python
 __pycache__/
 *.py[cod]
 *.egg-info/
@@ -10,13 +10,10 @@ __pycache__/
 venv/
 env/
 
-# Secrets
+# Environment variables & secrets
 .env
 *.env
-*.pem
-*.key
-kaggle.json
-.kaggle/
+standalone_admin_password.txt
 
 # IDEs
 .vscode/
@@ -25,30 +22,20 @@ kaggle.json
 # Airflow
 airflow.db
 airflow.cfg
-webserver_config.py
-.airflow/
 
 # Generated data
-data/
-quarantine_zone/
-lineage_events/
-spark-warehouse/
-production_warehouse/
+data/landing/*
+!data/landing/.gitkeep
 
-# Vector store / caches
-.chroma/
-chroma/
-.cache/
-sentence_transformers/
+data/delta/*
+!data/delta/.gitkeep
+
+data/chroma/*
+!data/chroma/.gitkeep
 
 # Logs
-logs/
-*.log
-!docs/sample_run.log
-
-# Kafka downloads
-kafka_2.13-*/
-kafka_2.13-*.tgz
+logs/*
+!logs/.gitkeep
 
 # macOS
 .DS_Store
