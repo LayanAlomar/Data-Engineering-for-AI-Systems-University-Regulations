@@ -1799,7 +1799,12 @@ for the training, technical guidance, and support throughout the project.
 This repository is intended for educational and capstone-submission purposes. Add an explicit open-source license only after confirming the team and program requirements.
 
 ---
+## Training Program
 
+This project was completed as part of the **SDAIA Academy – Modern Data Engineering for AI Systems** capstone.
+
+Official SDAIA Academy GitHub:
+https://github.com/SDAIAAcademy
 <p align="center">
   Built by Layan Alomar, Wajd Alotaibi, Alathoob Alosaimi, and Reema Qublan.
 </p>
